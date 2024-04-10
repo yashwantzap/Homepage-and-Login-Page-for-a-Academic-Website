@@ -1,11 +1,11 @@
 # Academic Website README
 
-This repository contains the source code for the Codespindle website, an online platform aimed at teaching coding skills through courses and interactive learning experiences. Below is an overview of the files and directories included in this project.
+This repository contains the source code for the YashCo CORP website, an online platform aimed at teaching coding skills through courses and interactive learning experiences. Below is an overview of the files and directories included in this project.
 ### Files
 
-    index.html: The main HTML file for the website, containing the structure and content of the homepage.
+    YashCocorp.html: The main HTML file for the website, containing the structure and content of the homepage.
     signup.html: HTML file for the sign-up page where users can register for an account.
-    codespindlestyle.css: The CSS stylesheet responsible for the styling and layout of the website.
+    YashCOcorp.css: The CSS stylesheet responsible for the styling and layout of the website.
     icon.png: The icon used for the website favicon and header branding.
     hero-banner.jpg: Image used in the hero section of the homepage.
     course-1.png, course-2.png, ..., course9.png: Images representing featured courses on the website.
@@ -21,7 +21,7 @@ This repository contains the source code for the Codespindle website, an online 
 ### To use or modify the Codespindle website:
 
     Clone this repository to your local machine using git clone.
-    Open the HTML files (index.html, signup.html) and CSS file (codespindlestyle.css) in a code editor.
+    Open the HTML files (YashCOcorp.html, signup.html) and CSS file (YashCOcorp.css) in a code editor.
     Make any necessary changes to the HTML structure or CSS styles to customize the website.
     You can also replace or add new images in the images/ directory as needed.
     Test the website locally in your web browser to ensure everything looks and functions as expected.
@@ -29,7 +29,7 @@ This repository contains the source code for the Codespindle website, an online 
 
 ### Contributing
 
-Contributions to the Codespindle website are welcome! If you find any bugs, have suggestions for improvements, or would like to add new features, feel free to open an issue or submit a pull request.
+Contributions to the YashCo CORP website are welcome! If you find any bugs, have suggestions for improvements, or would like to add new features, feel free to open an issue or submit a pull request.
 
 ### Credits
 
