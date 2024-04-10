@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(16, 24, 32);
+    color: #c9d8eb;
+}
+
+body h4, h3 {
+    color: rgb(254,231,21);
+}
+
+header {
+    color: rgb(16, 24, 32);;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(254,231,21);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 50px; /* Adjust the width of the image */
+    margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+.search-bar {
+    flex-grow: 1; /* This will make the search bar expand to take up remaining space */
+    text-align: center;
+}
+
+.search-bar input[type="text"],
+.search-bar button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: rgb(16, 24, 32);
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.search-bar input[type="text"] {
+    width: 200px;
+}
+
+.search-bar button {
+    background-color:  rgb(16, 24, 32);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: rgb(16, 24, 32);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color:rgb(254,231,21);
+    background-color:  rgb(16, 24, 32);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.hero-text {
+    margin-top: 20px;
+}
+
+.courses {
+    margin-bottom: 30px;
+}
+
+.courses h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(254,231,21);
+}
+
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course-card {
+    width: calc(33.33% - 20px); /* Adjust the width based on the number of cards you want per row */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: slategray;
+}
+
+.course-card a {
+    color: rgb(254,231,21);
+    text-decoration: none
+}
+
+.course-card img {
+    display: block; /* Make the image a block element */
+    margin: auto; /* Center align the image horizontally */
+    width: 50%; /* Adjust the width of the image */
+    height: 60%;
+    border-radius: 10px 10px 0 0; /* Add border radius to the top corners */
+    padding-top: 2%;
+}
+
+.course-card h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.benefits h2 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+    color: rgb(254, 231, 21); /* Set the color of the heading */
+}
+
+
+.benefit-card {
+    padding: 2%;
+    width: 33%;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.benefit-card img {
+    width: 65%;
+    margin-bottom: 20px;
+}
+
+.cta {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cta2{
+    color: rgb(254,231,21) ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.link {
+    color: yellow;
+}
+
+.footerhead {
+    color: rgb(16, 24, 32);
+}
+
+footer {
+    color: rgb(16, 24, 32);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(254,231,21);
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(16, 24, 32);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border: 2px solid rgb(254,231,21)  ;
+}
+
+.vbn {
+    text-align: center;
+    margin-bottom: 30px;
+    color:rgb(254,231,21) ;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(254,231,21);
+    border-radius: 5px;
+    background-color:rgb(16, 24, 32) ;
+}
+
+.form-group input[type="submit"] {
+    background-color: rgb(254,231,21);
+    color: rgb(16, 24, 32);
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #a4c2e1;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+
+    .benefit-card {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center
+    }
+
+    .header-left img {
+        width: 50px; /* Adjust the width of the image */
+        margin-right: 10px; /* Add some spacing between the image and text */
+    }
+    nav a {
+        display: block; /* Make each nav element a block element */
+        margin-bottom: 10px; /* Add some spacing between nav elements */
+    }
+    .search-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-bar input[type="text"] {
+        width: 70%; /* Adjust the width of the search input */
+        margin-right: 5px; /* Add some spacing between input and button */
+    }
+
+    .search-bar button {
+        width: 30%; /* Adjust the width of the search button */
+    }
+
+}
